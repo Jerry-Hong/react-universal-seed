@@ -4,7 +4,6 @@ var extend = require('extend');
 var autoprefixer = require('autoprefixer');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var AssetsPlugin = require('assets-webpack-plugin');
-var LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 
 var AUTOPREFIXER_BROWSERS = [
   'Android 2.3',
